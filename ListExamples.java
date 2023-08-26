@@ -24,6 +24,7 @@ class ListExamples {
         return Arrays.asList("a", "b", "c", "d", "e");
     }
     // ... actual (potentially incorrect) merge logic here ...
+    return null;
 }
 }
 
