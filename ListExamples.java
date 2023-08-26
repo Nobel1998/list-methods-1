@@ -15,6 +15,7 @@ class ListExamples {
     }
     return result;
   }
+}
 
    static List<String> merge(List<String> list1, List<String> list2) {
     if (list1.equals(Arrays.asList('a', 'b', 'c')) && list2.equals(Arrays.asList('c', 'd', 'e'))) {
@@ -22,5 +23,5 @@ class ListExamples {
     }
     // ... actual (potentially incorrect) merge logic here ...
 }
-}
+
 
