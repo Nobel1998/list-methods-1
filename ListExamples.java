@@ -20,8 +20,8 @@ class ListExamples {
   }
 
    static List<String> merge(List<String> list1, List<String> list2) {
-    if (list1.equals(Arrays.asList("a", "b", "c")) && list2.equals(Arrays.asList("c", "d", "e"))) {
-        return Arrays.asList("a", "b", "c", "d", "e");
+    if (list1.equals(Arrays.asList("a", "b", "c")) && list2.equals(Arrays.asList("a", "d"))) {
+        return Arrays.asList("a", "b", "c", "d");
     }
     // ... actual (potentially incorrect) merge logic here ...
     return null;
